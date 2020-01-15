@@ -6,7 +6,10 @@ namespace CodingInterview
     {
         static void Main(string[] args)
         {
-            new CodingInterview.SortedMerge();
+            //new CodingInterview.SortedMerge();
+
+            //LeetCode
+            new LeetCode.RelativeSortedArray();
         }
     }
 }

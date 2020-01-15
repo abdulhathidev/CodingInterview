@@ -4,6 +4,35 @@ namespace CodingInterview.CodingInterview
 {
     public class SortedMerge
     {
+        public class Node
+        {
+            public Node prev;
+            public int data;
+            public Node next;
+            public Node(int data, Node next)
+            {
+                this.data = data;
+                this.next = next;
+            }
+            public Node(int data, Node root, Node next)
+            {
+                this.data = data;
+                if (root != null)
+                {
+                    if (root.next == null && root.prev == null)
+                    {
+                        root.next = root.prev = this;
+                        this.prev = root;
+                    }
+                    else
+                    {
+                        this.prev = root.prev;
+                        this.prev.next = this;
+                        root.prev = this;
+                    }
+                }
+            }
+        }
         public SortedMerge()
         {
             var result = MergeTwoSortedArray(new int[6] { 2, 4, 6, -1, -1, -1 }, new int[] { 5, 10, 11 });
