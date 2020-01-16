@@ -1,6 +1,6 @@
 using System;
 
-namespace CodingInterview.CodingInterview
+namespace CodingInterview.CACI
 {
     public class SortedMerge
     {
