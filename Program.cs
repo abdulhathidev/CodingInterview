@@ -7,10 +7,9 @@ namespace CodingInterview
         static void Main(string[] args)
         {
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Magenta;
 
             #region General Topics
-            Console.WriteLine();
             Console.WriteLine("General Topics : ");
             Console.WriteLine("-------------------------------------");
             new Topics.HeadAndTailRecursion();
@@ -19,6 +18,20 @@ namespace CodingInterview
             new Topics.IndirectRecursion();
             new Topics.NestedRecursion();
             new Topics.SumOfNNaturalNum();
+            new Topics.Factorial();
+            new Topics.Power();
+            new Topics.TaylorSeries();
+            new Topics.TaylorSeriesByHornersRule();
+            new Topics.Fibonacci();
+            new Topics.NCRCombinationFormula();
+            new Topics.TowerOfHonoi();
+            new Topics.Array();
+            new Topics.String();
+            new Topics.Matrices();
+            new Topics.Tree();
+            new Topics.Sorting();
+            new Topics.GraphAlgo();
+            new Topics.DynamicProgramming();
             //new Topics.BitManipulation();
             #endregion
 
@@ -97,6 +110,38 @@ namespace CodingInterview
                 result += input[i];
             }
             return result;
+        }
+    }
+
+}
+
+namespace CodingInterview.ConsoleEx
+{
+    public static class Console
+    {
+        public static int ReadInt()
+        {
+            return Convert.ToInt32(System.Console.ReadLine());
+        }
+        public static int[] ReadIntArray()
+        {
+            var array = System.Console.ReadLine().Split(' ');
+            int[] arr = new int[array.Length];
+            for (int i = 0; i < array.Length; i++)
+            {
+                arr[i] = Convert.ToInt32(array[i]);
+            }
+            return arr;
+        }
+        public static int[] ReadIntArray(string[] strArray)
+        {
+            var array = System.Console.ReadLine().Split(' ');
+            int[] arr = new int[array.Length];
+            for (int i = 0; i < array.Length; i++)
+            {
+                arr[i] = Convert.ToInt32(array[i]);
+            }
+            return arr;
         }
     }
 }
