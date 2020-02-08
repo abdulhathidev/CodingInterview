@@ -12,26 +12,28 @@ namespace CodingInterview
             #region General Topics
             Console.WriteLine("General Topics : ");
             Console.WriteLine("-------------------------------------");
-            new Topics.HeadAndTailRecursion();
-            new Topics.StaticVsGlobalVarRecursion();
-            new Topics.TreeRecursion();
-            new Topics.IndirectRecursion();
-            new Topics.NestedRecursion();
-            new Topics.SumOfNNaturalNum();
-            new Topics.Factorial();
-            new Topics.Power();
-            new Topics.TaylorSeries();
-            new Topics.TaylorSeriesByHornersRule();
-            new Topics.Fibonacci();
-            new Topics.NCRCombinationFormula();
-            new Topics.TowerOfHonoi();
-            new Topics.Array();
-            new Topics.String();
-            new Topics.Matrices();
-            new Topics.Tree();
-            new Topics.Sorting();
-            new Topics.GraphAlgo();
-            new Topics.DynamicProgramming();
+            // new Topics.HeadAndTailRecursion();
+            // new Topics.StaticVsGlobalVarRecursion();
+            // new Topics.TreeRecursion();
+            // new Topics.IndirectRecursion();
+            // new Topics.NestedRecursion();
+            // new Topics.SumOfNNaturalNum();
+            // new Topics.Factorial();
+            // new Topics.Power();
+            // new Topics.TaylorSeries();
+            // new Topics.TaylorSeriesByHornersRule();
+            // new Topics.Fibonacci();
+            // new Topics.NCRCombinationFormula();
+            // new Topics.TowerOfHonoi();
+            // new Topics.Array();
+            // new Topics.String();
+            // new Topics.Matrices();
+            // new Topics.Tree();
+            // new Topics.Sorting();
+            // new Topics.GraphAlgo();
+            // new Topics.DynamicProgramming();
+            new Topics.Numbers();
+            new InterviewCake.DeleteNodeInSLL();
             //new Topics.BitManipulation();
             #endregion
 
