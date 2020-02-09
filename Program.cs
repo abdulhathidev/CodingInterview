@@ -10,8 +10,8 @@ namespace CodingInterview
             Console.ForegroundColor = ConsoleColor.Magenta;
 
             #region General Topics
-            Console.WriteLine("General Topics : ");
-            Console.WriteLine("-------------------------------------");
+            //Console.WriteLine("General Topics : ");
+            //Console.WriteLine("-------------------------------------");
             // new Topics.HeadAndTailRecursion();
             // new Topics.StaticVsGlobalVarRecursion();
             // new Topics.TreeRecursion();
@@ -32,11 +32,16 @@ namespace CodingInterview
             // new Topics.Sorting();
             // new Topics.GraphAlgo();
             // new Topics.DynamicProgramming();
-            new Topics.Numbers();
-            new InterviewCake.DeleteNodeInSLL();
+            //new Topics.Numbers();
+            //new InterviewCake.DeleteNodeInSLL();
             //new Topics.BitManipulation();
             #endregion
 
+            #region CrackginTheCodingInterview
+            Console.WriteLine("Crackgin The Coding Interview : ");
+            Console.WriteLine("-------------------------------------");
+            new CTCI.ArraysAndStrings();
+            #endregion
             //CrackingTheCodingInterview();
         }
 

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj": {}
+    "/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj": {}
   },
   "projects": {
-    "/Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj": {
+    "/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj",
+        "projectUniqueName": "/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj",
         "projectName": "CodingInterview",
-        "projectPath": "/Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj",
-        "packagesPath": "/Users/abdulhathimohamedhussain/.nuget/packages/",
-        "outputPath": "/Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/obj/",
+        "projectPath": "/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/CodingInterview.csproj",
+        "packagesPath": "/Users/abdulhathi/.nuget/packages/",
+        "outputPath": "/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/abdulhathimohamedhussain/.nuget/NuGet/NuGet.Config"
+          "/Users/abdulhathi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

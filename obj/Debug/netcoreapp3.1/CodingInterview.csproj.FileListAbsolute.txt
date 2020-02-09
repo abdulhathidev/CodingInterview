@@ -9,3 +9,14 @@
 /Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.AssemblyInfo.cs
 /Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.dll
 /Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.pdb
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.deps.json
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.runtimeconfig.json
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.runtimeconfig.dev.json
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.dll
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.pdb
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.csprojAssemblyReference.cache
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.AssemblyInfoInputs.cache
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.AssemblyInfo.cs
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.dll
+/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.pdb
