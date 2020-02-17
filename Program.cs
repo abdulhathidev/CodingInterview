@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CodingInterview
 {
@@ -10,8 +11,8 @@ namespace CodingInterview
             Console.ForegroundColor = ConsoleColor.Magenta;
 
             #region General Topics
-            //Console.WriteLine("General Topics : ");
-            //Console.WriteLine("-------------------------------------");
+            // Console.WriteLine("General Topics : ");
+            // Console.WriteLine("-----------------------------------------------------");
             // new Topics.HeadAndTailRecursion();
             // new Topics.StaticVsGlobalVarRecursion();
             // new Topics.TreeRecursion();
@@ -35,14 +36,37 @@ namespace CodingInterview
             //new Topics.Numbers();
             //new InterviewCake.DeleteNodeInSLL();
             //new Topics.BitManipulation();
+            //new Topics.KMPAlgorithm();
+            //new Topics.ASCII();
+            Console.WriteLine();
             #endregion
 
             #region CrackginTheCodingInterview
-            Console.WriteLine("Crackgin The Coding Interview : ");
-            Console.WriteLine("-------------------------------------");
-            new CTCI.ArraysAndStrings();
+            // Console.WriteLine("Crackgin The Coding Interview : ");
+            // Console.WriteLine("-----------------------------------------------------");
+            // new CTCI.ArraysAndStrings();
+            //new CTCI.SortingAndSearching();
+            #endregion
+
+            #region LeetCode
+            // Console.WriteLine("Array : ");
+            // Console.WriteLine("-----------------------------------------------------");
+            //new LeetCode.ArrayInLeetCode();
+            //new LeetCode.Array.SumOf3Numbers();
+            //new LeetCode.LinkedList.PalindromeLinkedList();
+            // Console.WriteLine("Linked List : ");
+            // Console.WriteLine("-----------------------------------------------------");
+            // new LeetCode.LinkedList.LinkedList();
+            //new LeetCode.String();
             #endregion
             //CrackingTheCodingInterview();
+
+            #region MyLearnings
+            Console.WriteLine("My Learnings");
+            Console.WriteLine("--------------------------------");
+            //new CodingInterview.MyLearnings.BinarySearchTree();
+            new CodingInterview.MyLearnings.Graph();
+            #endregion
         }
 
         private static void CrackingTheCodingInterview()
