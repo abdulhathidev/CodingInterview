@@ -45,7 +45,8 @@ namespace CodingInterview.MyLearnings
             Console.WriteLine("--------------------------------");
             Console.Write("Read Adjacency Matrix        : "); ReadAdjacencyMatrix(adjacencyMatrix);
             Console.Write("Read Adjacency List          : "); ReadAdjacencyList(adjacencyList);
-            Console.Write("Breadth First Search (BFS)   : "); BuildAdjacencyList(); BFS(adjList[1]);
+            Console.Write("Breadth First Search (BFS)   : "); BuildAdjacencyList(); BFS(adjList[1]); Console.WriteLine();
+            Console.Write("Depth First Search (DFS)     : "); graphNodeVisited = new bool[5]; DFS(2); Console.WriteLine();
             Console.WriteLine();
         }
         public void ReadAdjacencyMatrix(int[][] adjMatrix)
@@ -88,20 +89,31 @@ namespace CodingInterview.MyLearnings
             Console.Write("({0}) -> ", root.data);
             while (queue.Count > 0)
             {
-                var adjacent = queue.Dequeue().adjacent;
-                if (adjacent != null)
+                var currentNode = queue.Dequeue();
+                while (currentNode != null)
                 {
-                    var currentNode = adjList[adjacent.data];
-                    while (currentNode != null)
+                    if (graphNodeVisited[currentNode.data - 1] == false)
                     {
-                        if (currentNode != null && graphNodeVisited[currentNode.data - 1] == false)
-                        {
-                            queue.Enqueue(currentNode);
-                            graphNodeVisited[currentNode.data - 1] = true;
-                            Console.Write("({0}) -> ", currentNode.data);
-                        }
-                        currentNode = currentNode.adjacent;
+                        graphNodeVisited[currentNode.data - 1] = true;
+                        Console.Write("({0}) -> ", currentNode.data);
+                        queue.Enqueue(adjList[currentNode.data]);
                     }
+                    currentNode = currentNode.adjacent;
+                }
+            }
+        }
+        public void DFS(int startNode)
+        {
+            if (graphNodeVisited[startNode - 1] == false)
+            {
+                Console.Write("{0} -> ", startNode);
+                graphNodeVisited[startNode - 1] = true;
+                var adjacent = adjList[startNode].adjacent;
+                while (adjacent != null)
+                {
+                    if (graphNodeVisited[adjacent.data - 1] == false)
+                        DFS(adjacent.data);
+                    adjacent = adjacent.adjacent;
                 }
             }
         }

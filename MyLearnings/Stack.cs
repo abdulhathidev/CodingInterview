@@ -1,6 +1,6 @@
 using System;
 
-namespace CodingInterview.MyLearnings
+namespace CodingInterview.MyLearnings.QORS
 {
     public class Stack<T>
     {

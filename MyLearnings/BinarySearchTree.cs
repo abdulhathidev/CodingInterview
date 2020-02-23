@@ -109,5 +109,25 @@ namespace CodingInterview.MyLearnings
                 treeNode = treeNode.left;
             return treeNode.data;
         }
+        public void BuildBSTByArray(int[] nodes)
+        {
+            if (nodes.Length == 0)
+                return;
+            TreeNode<int> root = new TreeNode<int>(nodes[0]);
+            for (int i = 1; i < nodes.Length; i++)
+            {
+                //BuildTree()
+            }
+        }
+        public TreeNode<int> BuildTree(TreeNode<int> node, int data)
+        {
+            if (node == null)
+                return node = new TreeNode<int>(data);
+            else if (node.left == null)
+                node.left = BuildTree(node.left, data);
+            else
+                node.right = BuildTree(node.right, data);
+            return node;
+        }
     }
 }

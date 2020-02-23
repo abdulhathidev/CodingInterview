@@ -49,8 +49,8 @@ namespace CodingInterview
             #endregion
 
             #region LeetCode
-            // Console.WriteLine("Array : ");
-            // Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("Array : ");
+            Console.WriteLine("-----------------------------------------------------");
             //new LeetCode.ArrayInLeetCode();
             //new LeetCode.Array.SumOf3Numbers();
             //new LeetCode.LinkedList.PalindromeLinkedList();
@@ -58,14 +58,15 @@ namespace CodingInterview
             // Console.WriteLine("-----------------------------------------------------");
             // new LeetCode.LinkedList.LinkedList();
             //new LeetCode.String();
+            new LeetCode.Tree();
             #endregion
             //CrackingTheCodingInterview();
 
             #region MyLearnings
-            Console.WriteLine("My Learnings");
-            Console.WriteLine("--------------------------------");
+            // Console.WriteLine("My Learnings");
+            // Console.WriteLine("--------------------------------");
             //new CodingInterview.MyLearnings.BinarySearchTree();
-            new CodingInterview.MyLearnings.Graph();
+            //new CodingInterview.MyLearnings.Graph();
             #endregion
         }
 
