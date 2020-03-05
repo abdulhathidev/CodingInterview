@@ -3,6 +3,38 @@ using System.Collections.Generic;
 
 namespace CodingInterview.MyLearnings
 {
+    /*  
+                    Directed Graph
+                    (1)----->(2)
+                    |        |  
+                    |        |  
+                    ↓        ↓  
+        Indegree 2 (4)----->(3)
+        Outdegree 1  ↖-----
+                     Parallel edges
+
+                    (1)----->(2)
+                     |  \     ↑
+                     |    \   |     Simple Graph
+                     ↓      ↘ |      
+                    (4)----->(3)
+    
+         Un Directed Graph
+            (2)---(3)   
+           / |   / | 
+        (1)  |  /  |
+           \ | /   |
+            (4)---(5)
+
+            (1)------(2)    (5) 
+             |        |      |  \
+             |        |      |   (7)    Non-Connected Graph
+             |        |      |  /
+            (3)------(4)    (6)    
+
+        1. Any vertex can reach any vertex in this kind of directed Graph is called strongly conncted
+        2. 
+    */
     public class GraphNode<T>
     {
         public GraphNode<T> adjacent;
@@ -12,13 +44,7 @@ namespace CodingInterview.MyLearnings
             this.data = data;
         }
     }
-    /*   Un Directed Graph
-            (2)---(3)   
-           / |   / | 
-        (1)  |  /  |
-           \ | /   |
-            (4)---(5)
-    */
+    
     public class Graph
     {
         int[][] adjacencyMatrix = new int[5][]

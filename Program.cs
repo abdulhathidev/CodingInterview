@@ -10,6 +10,13 @@ namespace CodingInterview
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Magenta;
 
+            #region Algorithms
+            Console.WriteLine("Algorithms");
+            Console.WriteLine("--------------------------------------");
+            new Algorithms.Basic();
+            new Algorithms.Evaluate();
+            #endregion
+
             #region General Topics
             // Console.WriteLine("General Topics : ");
             // Console.WriteLine("-----------------------------------------------------");
@@ -49,8 +56,8 @@ namespace CodingInterview
             #endregion
 
             #region LeetCode
-            Console.WriteLine("Array : ");
-            Console.WriteLine("-----------------------------------------------------");
+            // Console.WriteLine("Array : ");
+            // Console.WriteLine("-----------------------------------------------------");
             //new LeetCode.ArrayInLeetCode();
             //new LeetCode.Array.SumOf3Numbers();
             //new LeetCode.LinkedList.PalindromeLinkedList();
@@ -58,7 +65,7 @@ namespace CodingInterview
             // Console.WriteLine("-----------------------------------------------------");
             // new LeetCode.LinkedList.LinkedList();
             //new LeetCode.String();
-            new LeetCode.Tree();
+            // new LeetCode.Tree();
             #endregion
             //CrackingTheCodingInterview();
 

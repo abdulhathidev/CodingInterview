@@ -36,8 +36,6 @@ namespace CodingInterview.MyLearnings
     10.Levels                               - Each stage of node's are levels
     11.Height                               - Counting connecting edges from root to leaf nodes are Hight
     12.Forest                               - A collection of trees is called Forest
-
-  
     */
     public class Tree
     {

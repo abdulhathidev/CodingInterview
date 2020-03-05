@@ -9,7 +9,6 @@
 /Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.AssemblyInfo.cs
 /Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.dll
 /Users/abdulhathimohamedhussain/Documents/Development/MyProjects/CodingInterview/obj/Debug/netcoreapp3.1/CodingInterview.pdb
-/Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview
 /Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.deps.json
 /Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.runtimeconfig.json
 /Users/abdulhathi/Documents/Development/MyProjects/CodingInterview/bin/Debug/netcoreapp3.1/CodingInterview.runtimeconfig.dev.json
